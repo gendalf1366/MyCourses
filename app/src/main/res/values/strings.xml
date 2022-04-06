@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">MyCourses</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_classes">Classes</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="lessons">Уроки</string>
+    <string name="fav_screen">Favourite screen</string>
+    <string name="list_screen">List screen</string>
+    <string name="title_list">List</string>
+    <string name="open_in">Open in</string>
+    <string name="hi_student">Привет, студент!</string>
+    <string name="are_your_ready">Ты готов к экзамену?</string>
+    <string name="separator_char">:</string>
+    <string name="days">Дней</string>
+    <string name="hours">Часов</string>
+    <string name="minutes">Минут</string>
+    <string name="lesson">Уроки</string>
+    <string name="lesson_count">7 уроков сегодня</string>
+    <string name="home_work">Домашние задания</string>
+    <string name="home">Home</string>
 </resources>

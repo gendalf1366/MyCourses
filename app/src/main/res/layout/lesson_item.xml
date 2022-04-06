@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="@dimen/facultative_item_margin"
+    android:layout_marginBottom="@dimen/facultative_item_margin"
+    android:backgroundTint="@null"
+    android:clickable="true"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#232429"
+    app:cardCornerRadius="@dimen/classes_item_card_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/icon_area"
+            android:layout_width="@dimen/area_size"
+            android:layout_height="@dimen/area_size"
+            android:layout_margin="@dimen/margin_default"
+            android:background="@drawable/image_rounded_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/icon"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
+                android:backgroundTint="@null"
+                android:scaleType="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_default"
+            android:ellipsize="end"
+            android:maxLines="@dimen/two_max_line"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="@dimen/default_text_size"
+            app:layout_constraintEnd_toStartOf="@id/open_in_area"
+            app:layout_constraintStart_toEndOf="@id/icon_area"
+            app:layout_constraintTop_toTopOf="@id/icon_area" />
+
+        <TextView
+            android:id="@+id/scheduler"
+            android:layout_width="@dimen/zero"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_default"
+            android:drawablePadding="@dimen/classes_lesson_drawable_padding"
+            android:ellipsize="end"
+            android:gravity="start|center"
+            android:maxLines="@dimen/two_max_line"
+            android:textColor="#58595e"
+            android:textSize="@dimen/default_text_size"
+            app:layout_constraintBottom_toBottomOf="@id/icon_area"
+            app:layout_constraintEnd_toStartOf="@id/open_in_area"
+            app:layout_constraintStart_toEndOf="@id/icon_area"
+            app:layout_constraintTop_toBottomOf="@id/title" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/open_in_area"
+            android:layout_width="@dimen/tag_icon_size"
+            android:layout_height="match_parent"
+            android:background="#4bcfff"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ru.gendalf13666.mycourses.Ui.Base.CustomView.VerticalTextView
+                android:id="@+id/open_in"
+                style="@style/verticalTextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginBottom="@dimen/open_in_margin_bottom"
+                android:gravity="top|start"
+                android:padding="@dimen/open_in_padding"
+                android:text="@string/open_in"
+                android:textColor="@color/white"
+                android:textSize="@dimen/default_text_size"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="@dimen/open_in_icon_size"
+                android:layout_height="@dimen/open_in_icon_size"
+                android:layout_marginTop="@dimen/open_in_icon_margin_top"
+                android:rotation="@dimen/rotation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/open_in"
+                app:srcCompat="@drawable/ic_camera" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

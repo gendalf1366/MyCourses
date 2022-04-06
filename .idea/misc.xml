@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/activity_main.xml" value="0.2692502532928065" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/bottom_menu.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/classes_facultative_item.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/classes_lesson_item.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/facultative_item.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/fragment_classes.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/fragment_favourite.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/fragment_list.xml" value="0.2341485507246377" />
+        <entry key="..\:/Programming/Android/Lesson/PreparingInterview/MyCourses/Repo/app/src/main/res/layout/home_work_item.xml" value="0.2341485507246377" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

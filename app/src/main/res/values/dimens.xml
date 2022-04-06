@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="activity_main_bottom_navigation_padding">4dp</dimen>
+    <dimen name="activity_main_bottom_navigation_height">80dp</dimen>
+    <dimen name="classes_facultative_item_height">300dp</dimen>
+    <dimen name="classes_lesson_item_height">180dp</dimen>
+    <dimen name="line_width">2dp</dimen>
+    <dimen name="line_margin_start">16dp</dimen>
+    <dimen name="circle_size">30dp</dimen>
+    <dimen name="classes_item_card_margin_vertical">32dp</dimen>
+    <dimen name="classes_item_card_margin_start">48dp</dimen>
+    <dimen name="classes_item_card_margin_end">16dp</dimen>
+    <dimen name="classes_item_card_radius">25dp</dimen>
+    <dimen name="area_size">50dp</dimen>
+    <dimen name="area_margin">16dp</dimen>
+    <dimen name="icon_size">35dp</dimen>
+    <dimen name="classes_item_title_margin_horizontal">16dp</dimen>
+    <dimen name="default_text_size">10sp</dimen>
+    <dimen name="classes_lesson_drawable_padding">8dp</dimen>
+    <dimen name="classes_lesson_margin_horizontal">16dp</dimen>
+    <dimen name="open_in_area_width">45dp</dimen>
+    <dimen name="classes_lesson_margin_top">32dp</dimen>
+    <dimen name="open_in_margin_bottom">24dp</dimen>
+    <dimen name="open_in_padding">4dp</dimen>
+    <dimen name="open_in_icon_size">20dp</dimen>
+    <dimen name="open_in_icon_margin_top">4dp</dimen>
+    <dimen name="tag_icon_area_margin">16dp</dimen>
+    <dimen name="tag_icon_area_margin_start">-16dp</dimen>
+    <dimen name="tag_icon_size">45dp</dimen>
+    <dimen name="facultative_item_margin">2dp</dimen>
+    <dimen name="facultative_item_radius">25dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="fragment_classes_icon_size">30dp</dimen>
+    <dimen name="fragment_classes_date_text_size">8sp</dimen>
+    <dimen name="fragment_classes_date_margin_horizontal">32dp</dimen>
+    <dimen name="fragment_classes_date_margin_vertical">2dp</dimen>
+    <dimen name="fragment_classes_lesson_title_text_size">20sp</dimen>
+    <dimen name="fragment_classes_classes_title_margin_horizontal">32dp</dimen>
+    <dimen name="tag_icon_two_area_margin_start">-10dp</dimen>
+    <dimen name="fragment_home_title_text_size">20sp</dimen>
+    <dimen name="fragment_home_title_margin_horizontal">32dp</dimen>
+    <dimen name="fragment_home_icon_size">30dp</dimen>
+    <dimen name="fragment_home_card_radius">25dp</dimen>
+    <dimen name="fragment_home_card_title_text_size">20sp</dimen>
+    <dimen name="fragment_home_digit_height">55dp</dimen>
+    <dimen name="fragment_home_digit_margin_end">4dp</dimen>
+    <dimen name="fragment_home_digit_margin_start">32dp</dimen>
+    <dimen name="fragment_home_digit_text_size">20sp</dimen>
+    <dimen name="separator_char_text_size">30sp</dimen>
+    <dimen name="fragment_main_title_text_size">16sp</dimen>
+    <dimen name="fragment_home_title_margin_vertical">8dp</dimen>
+    <dimen name="menu_icon_size">30dp</dimen>
+    <dimen name="menu_item_radius">15dp</dimen>
+    <dimen name="menu_item_title_margin_start">3dp</dimen>
+    <item name="two_max_line" format="integer" type="dimen">2</item>
+    <item name="one_max_line" format="integer" type="dimen">1</item>
+    <item name="three_max_line" format="integer" type="dimen">3</item>
+    <item name="rotation" format="integer" type="dimen">90</item>
+    <item name="fragment_home_card_height_percent" format="float" type="dimen">0.25</item>
+    <item name="fragment_home_rv_classes_height_percent" format="float" type="dimen">0.14</item>
+    <item name="scale_image" format="float" type="dimen">0.8</item>
+    <item name="menu_item_height_percent" format="float" type="dimen">0.6</item>
+    <item name="menu_item_width_percent" format="float" type="dimen">0.23</item>
+    <item name="menu_item_scale" format="float" type="dimen">0.6</item>
+</resources>
